@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 int main() {
+    //to create a vector
     vector<int> v;
     //to find capacity of a vector
     cout<< "capacity of vector is "<< v.capacity()<<endl; 
