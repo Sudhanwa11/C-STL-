@@ -2,7 +2,7 @@
 #include <queue>
 using namespace std;
 int main() {
-    //to create stack
+    //to create queue
     queue<string> q;
     
     //to add elements
@@ -14,6 +14,7 @@ int main() {
     //to find first element
     cout<< "first element is "<<q.front()<<endl;
     
+    //to remove element
     q.pop();
     cout<< "after pop case first element is "<<q.front()<<endl;
     
