@@ -15,4 +15,6 @@ int main() {
     cout<< "first element is " << a.front() <<endl;
     //to find last element of array
     cout<< "last element is " << a.back() <<endl;
+    return 0;
+
 }
