@@ -1,7 +1,10 @@
 #include <iostream>
-#include <deque>
+#include <deque> //to add library of deque
 using namespace std;
+
 int main() {
+
+
     //to create deque
     deque<int> d;
     
