@@ -1,7 +1,10 @@
 #include <iostream>
 #include <set>
 using namespace std;
+
+
 int main() {
+
     //create set
     set<int> s;
     
@@ -48,5 +51,6 @@ int main() {
     for (auto it=itr; it!=s.end(); it++) {
         cout<<*it<<endl;
     }
+
     cout<<endl;
 }
