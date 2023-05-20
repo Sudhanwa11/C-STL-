@@ -1,7 +1,9 @@
 #include <iostream>
 #include <stack>
 using namespace std;
+
 int main() {
+
     //to create stack
     stack<string> s;
     
