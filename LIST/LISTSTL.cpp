@@ -1,6 +1,8 @@
 #include <iostream>
 #include <list>
 using namespace std;
+
+
 int main() {
     //to make a list
     list<int> l;
@@ -15,6 +17,7 @@ int main() {
     }
     cout<<endl;
     
+
     //to erase a element
     cout<< "before erase elements "<<l.size()<<endl;
     l.erase(l.begin());
@@ -25,6 +28,7 @@ int main() {
     }
     cout<<endl;
     
+
     //to find size of list
     cout<< "size of list is now "<<l.size()<<endl;
     
