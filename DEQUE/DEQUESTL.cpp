@@ -3,8 +3,6 @@
 using namespace std;
 
 int main() {
-
-
     //to create deque
     deque<int> d;
     
@@ -19,7 +17,8 @@ int main() {
         cout<< i << " ";
     }
     cout<<endl;
-    
+
+
     //to find first elment of vector
     cout<< "front element-> "<< d.front()<<endl;
     
