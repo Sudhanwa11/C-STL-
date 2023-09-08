@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 string toBinary(int n, int len) {
     string binary;
     for (unsigned i = (1 << len - 1); i > 0; i = i / 2) {
