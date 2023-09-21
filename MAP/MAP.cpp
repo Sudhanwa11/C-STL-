@@ -4,7 +4,6 @@ using namespace std;
 //maps
 
 int main() {
-
     map<int,string> m;
     m[1] = "sudhanwa";
     m[2] = "vaid";
